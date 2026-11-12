@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "serve": "node --env-file=.env app.js",
-    "watch": "node --watch --env-file=.env app.js"
+    "watch": "node --watch --env-file=.env app.js",
+    "seed": "prisma db seed"
   },
   "dependencies": {
     "@prisma/adapter-mariadb": "^7.10.1",
